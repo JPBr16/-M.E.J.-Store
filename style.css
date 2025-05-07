@@ -1,0 +1,147 @@
+/* Reset e base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #1e3c72;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffd700;
+  }
+  
+  .banner {
+    padding: 60px 20px;
+    text-align: center;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: #fff;
+  }
+  
+  .produtos {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .produtos h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #1e3c72;
+  }
+  
+  .produtos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+  }
+  
+  .produto {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .produto:hover {
+    transform: translateY(-5px);
+  }
+  
+  .produto img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .produto h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0 5px;
+  }
+  
+  .produto p {
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background: #1e3c72;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #163b61;
+  }
+  
+  footer {
+    background-color: #1e3c72;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+  
+  /* Formulários */
+  .form-container {
+    max-width: 400px;
+    margin: 80px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+    color: #1e3c72;
+  }
+  
+  .form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+  }
+  
+  .form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .form-container a {
+    color: #1e3c72;
+    text-decoration: none;
+  }
+  
+  .form-container a:hover {
+    text-decoration: underline;
+  }
